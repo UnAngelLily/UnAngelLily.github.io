@@ -4,28 +4,49 @@ body {
   position: relative;
 }
 .background {
-  position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  width: 1000px;
-  height: 100%;
-
-  /* box-shadow: 10 10 10px white inset */
+      background-repeat: no-repeat;
+      width: 65%;
+      height: 65%;
+      margin: 100px 100px
 }
 
-.stats {
+#pokePhotoDiv {
+  position: absolute;
+  top: 300px;
+  right: 35%;
+}
+
+h1 {
+  font-family: 'Long Cang';
+  position: absolute;
+  top: -72px;
+  left: 439px;
+  font-size: 60px;
+}
+
+#stats {
 font-family: 'Long Cang';
 position: absolute;
+top: 175px;
+left: 235px;
 display: flex;
-flex-grow: column;
+flex-direction: column;
 z-index: 3;
 }
 
+h3{
+  font-family: 'Long Cang';
+  top: 100px;
+  left: 250px;
+}
+
 h2, dd, dt {
+  text-align: center;
   font-family: 'Long Cang';
   font-size: 20px;
   text-decoration: underline;
-  padding: 10px;
+  padding: 1px;
 }
 
 .button {

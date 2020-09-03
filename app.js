@@ -12,11 +12,12 @@ $('form').on('submit', (event) => {
       }
     ).then(
       (data) => {
+        console.log(data);
         $('#name').html(data.name)
         $('#id').html(data.id)
         $('#height').html(data.height)
         $('#weight').html(data.weight)
-        $('#pokephoto').attr("src", data.sprites.front_default)
+        $('#pokePhoto').attr("src", data.sprites.front_default)
       })
   })
   $("#btn").on('click', (event) => {
@@ -28,11 +29,12 @@ $('form').on('submit', (event) => {
       $.ajax({
         url: 'https://pokeapi.co/api/v2/pokemon/' + x
       }).then((data) => {
+        console.log(data);
         $('#name').html(data.name)
         $('#id').html(data.id)
         $('#height').html(data.height)
         $('#weight').html(data.weight)
-        $('#pokephoto').attr("src", data.sprites.front_default)
+        $('#pokePhoto').attr("src", data.sprites.front_default)
     })
   })
   $("#btn2").on('click', (event) => {
@@ -48,7 +50,7 @@ $('form').on('submit', (event) => {
         $('#id').html(data.id)
         $('#height').html(data.height)
         $('#weight').html(data.weight)
-        $('#pokephoto').attr("src", data.sprites.front_default)
+        $('#pokePhoto').attr("src", data.sprites.front_default)
         })
       })
     })

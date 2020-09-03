@@ -6,34 +6,36 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap"  rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
+
   </head>
   <body>
       <img src ="images/background-hero.png" class="background" alt="pokebackground"/>
-      <div class="pokepic">
-        <img id="pokephoto"/>
+      <div id="pokePhotoDiv">
+        <img id="pokePhoto" height="300" width="300"/>
       </div>
-      <h1>PokeDex</h1>
+
     <div id="stats">
-      <button id="btn2"><</button>
-      <img src="images/Poke_Ball_move.gif">
-      <button id="btn">></button>
+      <h1>PokeDex</h1>
+      <div>
+        <button id="btn2"><</button>
+        <img src="images/Poke_Ball_move.gif">
+        <button id="btn">></button>
+      </div>
       <h3>Search Pokedex</h3>
         <form>
           <input type="text" placeholder"Entry Number"/>
           <input type="submit" value="Pokemon by Number"/>
         </form>
       <h2>Pokemon Stats</h2>
-      <dl>
-        <dt>Name:</dt>
-        <dd id="name"></dd>
-        <dt>Entry Number:</dt>
-        <dd id="id"></dd>
-        <dt>Height:</dt>
-        <dd id="height"></dd>
-        <dt>Weight:</dt>
-        <dd id="weight"></dd>
-      </dl>
+      <dt>Name:</dt>
+          <dd id="name"></dd>
+          <dt>Entry Number:</dt>
+          <dd id="id"></dd>
+          <dt>Height:</dt>
+          <dd id="height"></dd>
+          <dt>Weight:</dt>
+          <dd id="weight"></dd>
     </div>
   </body>
 </html>
