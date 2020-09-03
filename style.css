@@ -1,26 +1,17 @@
-Stuff
-/* body {
-  align-items: center;
-  background-color: white;
+body {
+  /* background-image: url('./images/background-hero.png'); */
+  position: relative;
+}
+.background {
+  position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 100%;
+}
+.container {
+  display: flex;
+}
+/* background <img {
+position:relative;
 } */
-
-/* .card-back { */
-  /* use pokemon trading cards? how do I generate that? */
-/* Style so everything fits in a div, picture of pokemon on left side, stats on right */
-/* add background */
-/* }
-h1 {
-  align-items: center;
-}
-
-h2 {
-  align-items: center;
-}
-
-h3 {
-  align-items: center;
-}
-
- li {
-   list-style: none;
- } */
