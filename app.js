@@ -16,6 +16,7 @@ $('form').on('submit', (event) => {
         $('#id').html(data.id)
         $('#height').html(data.height)
         $('#weight').html(data.weight)
+        $('#pokephoto').attr("src", data.sprites.front_default)
       })
   })
   $("#btn").on('click', (event) => {
@@ -31,6 +32,7 @@ $('form').on('submit', (event) => {
         $('#id').html(data.id)
         $('#height').html(data.height)
         $('#weight').html(data.weight)
+        $('#pokephoto').attr("src", data.sprites.front_default)
     })
   })
   $("#btn2").on('click', (event) => {
@@ -46,6 +48,7 @@ $('form').on('submit', (event) => {
         $('#id').html(data.id)
         $('#height').html(data.height)
         $('#weight').html(data.weight)
+        $('#pokephoto').attr("src", data.sprites.front_default)
         })
       })
     })
